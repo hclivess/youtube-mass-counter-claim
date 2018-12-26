@@ -1,0 +1,237 @@
+    "id": "NAME_PLACEHOLDER-4c0a-9150-640bda307e1d",
+    "name": "NAME_PLACEHOLDER",
+    "commands": [{
+      "id": "01b5d53c-1586-4f16-b801-23b23eb1d008",
+      "comment": "",
+      "command": "open",
+      "target": "TEMPLATE_VALUE",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "NAME_PLACEHOLDER-4612-bf5c-cf9af2ff9766",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1914x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "NAME_PLACEHOLDER-4eed-bf37-84e4a782d536",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=File a dispute",
+      "targets": [
+        ["linkText=File a dispute", "linkText"],
+        ["css=a[title=\"File a dispute\"]", "css"],
+        ["css=.copynotice-options:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'File a dispute')]", "xpath:link"],
+        ["xpath=//div[@id='creator-editor-container']/div[2]/div[3]/table/tbody/tr[2]/td[4]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/copynotice?claim_id=G_tTI1HEs5M&video_id=vtunzpTuNI8&action_reason_list=1')]", "xpath:href"],
+        ["xpath=//td[4]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "NAME_PLACEHOLDER4a7f-a79d-3cf23883f3f2",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "win_ser_1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "NAME_PLACEHOLDER-4652-a2d1-69a0374c7b50",
+      "comment": "",
+      "command": "click",
+      "target": "id=reason-5",
+      "targets": [
+        ["id=reason-5", "id"],
+        ["css=#reason-5", "css"],
+        ["css=#reason-5", "css:finder"],
+        ["xpath=//input[@id='reason-5']", "xpath:attributes"],
+        ["xpath=//div[@id='form-pane']/form/div/p[5]/span/input", "xpath:idRelative"],
+        ["xpath=//p[5]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "NAME_PLACEHOLDER-493d-88b2-00c609ac50d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#continue-button > span.yt-uix-button-content",
+      "targets": [
+        ["css=#continue-button > span.yt-uix-button-content", "css"],
+        ["css=#continue-button > .yt-uix-button-content", "css:finder"],
+        ["xpath=//button[@id='continue-button']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "NAME_PLACEHOLDER-4dcb-a96c-de6435f4fbdf",
+      "comment": "",
+      "command": "click",
+      "target": "id=reason_confirm",
+      "targets": [
+        ["id=reason_confirm", "id"],
+        ["name=reason_confirm", "name"],
+        ["css=#reason_confirm", "css"],
+        ["css=#reason_confirm", "css:finder"],
+        ["xpath=//input[@id='reason_confirm']", "xpath:attributes"],
+        ["xpath=//div[@id='form-pane']/form/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "NAME_PLACEHOLDER-4ea7-81c3-30a45fa4265c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#reason-submit > span.yt-uix-button-content",
+      "targets": [
+        ["css=#reason-submit > span.yt-uix-button-content", "css"],
+        ["css=#reason-submit > .yt-uix-button-content", "css:finder"],
+        ["xpath=//button[@id='reason-submit']/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "NAME_PLACEHOLDER-433b-8e11-0f111d96cbbc",
+      "comment": "",
+      "command": "click",
+      "target": "name=reason_desc",
+      "targets": [
+        ["name=reason_desc", "name"],
+        ["css=textarea[name=\"reason_desc\"]", "css"],
+        ["css=.yt-uix-form-input-textarea", "css:finder"],
+        ["xpath=//textarea[@name='reason_desc']", "xpath:attributes"],
+        ["xpath=//div[@id='form-pane']/form/div[3]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "NAME_PLACEHOLDER-44ce-bff8-f187dcbb4d7a",
+      "comment": "",
+      "command": "type",
+      "target": "name=reason_desc",
+      "targets": [
+        ["name=reason_desc", "name"],
+        ["css=textarea[name=\"reason_desc\"]", "css"],
+        ["css=.yt-uix-form-input-textarea", "css:finder"],
+        ["xpath=//textarea[@name='reason_desc']", "xpath:attributes"],
+        ["xpath=//div[@id='form-pane']/form/div[3]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "I own all rights to distribution of this material under the Creative Commons license."
+    }, {
+      "id": "NAME_PLACEHOLDER-4fab-8ece-1c747de132f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=validity_good_faith",
+      "targets": [
+        ["id=validity_good_faith", "id"],
+        ["name=validity_good_faith", "name"],
+        ["css=#validity_good_faith", "css"],
+        ["css=#validity_good_faith", "css:finder"],
+        ["xpath=//input[@id='validity_good_faith']", "xpath:attributes"],
+        ["xpath=//div[@id='form-pane']/form/div[4]/span/input", "xpath:idRelative"],
+        ["xpath=//div[4]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "NAME_PLACEHOLDER-408c-9130-106fe6530cd1",
+      "comment": "",
+      "command": "click",
+      "target": "id=validity_video_visibility",
+      "targets": [
+        ["id=validity_video_visibility", "id"],
+        ["name=validity_video_visibility", "name"],
+        ["css=#validity_video_visibility", "css"],
+        ["css=#validity_video_visibility", "css:finder"],
+        ["xpath=//input[@id='validity_video_visibility']", "xpath:attributes"],
+        ["xpath=//div[@id='form-pane']/form/div[4]/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "NAME_PLACEHOLDER-4916-a4b8-1cd99d2f45c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=signature",
+      "targets": [
+        ["id=signature", "id"],
+        ["name=signature", "name"],
+        ["css=#signature", "css"],
+        ["css=#signature", "css:finder"],
+        ["xpath=//input[@id='signature']", "xpath:attributes"],
+        ["xpath=//div[@id='form-pane']/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "NAME_PLACEHOLDER-425b-8202-45b6a5852656",
+      "comment": "",
+      "command": "type",
+      "target": "id=signature",
+      "targets": [
+        ["id=signature", "id"],
+        ["name=signature", "name"],
+        ["css=#signature", "css"],
+        ["css=#signature", "css:finder"],
+        ["xpath=//input[@id='signature']", "xpath:attributes"],
+        ["xpath=//div[@id='form-pane']/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "Jan Kucera"
+    }, {
+      "id": "NAME_PLACEHOLDER-4478-a304-77c9529e57d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(11)",
+      "targets": [
+        ["css=div:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='form-pane']/form/div[7]", "xpath:idRelative"],
+        ["xpath=//div[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "NAME_PLACEHOLDER-47a7-a589-56f1f7ae5577",
+      "comment": "",
+      "command": "click",
+      "target": "css=#action-continue > span.yt-uix-button-content",
+      "targets": [
+        ["css=#action-continue > span.yt-uix-button-content", "css"],
+        ["css=#action-continue > .yt-uix-button-content", "css:finder"],
+        ["xpath=//button[@id='action-continue']/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "NAME_PLACEHOLDER-48ab-b196-8578abc4130c",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "NAME_PLACEHOLDER-4cef-9c92-b0cf833ecb29",
+      "comment": "",
+      "command": "click",
+      "target": "css=#action-submit > span.yt-uix-button-content",
+      "targets": [
+        ["css=#action-submit > span.yt-uix-button-content", "css"],
+        ["css=#action-submit > .yt-uix-button-content", "css:finder"],
+        ["xpath=//button[@id='action-submit']/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "NAME_PLACEHOLDER-4b75-8fd4-ba0da11a811d",
+      "comment": "",
+      "command": "//assertConfirmation",
+      "target": "Are you sure that you want to dispute this claim?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "NAME_PLACEHOLDER-4b1f-bcc8-f88ad8b4e11e",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
