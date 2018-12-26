@@ -1,0 +1,13 @@
+    }]
+  }],
+  "suites": [{
+    "id": "a27723e9-ebe6-476b-9259-5811dd0763c7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dcef474b-ea7d-4c0a-9150-640bda307e1d"]
+  }],
+  "urls": ["https://www.youtube.com/"],
+  "plugins": []
+}
